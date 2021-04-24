@@ -1,3 +1,4 @@
+```shell
 Docker image for IDrive. 
 
 PREREQUISITES
@@ -42,3 +43,4 @@ SECOND RUN AND SUCCESSIVES
 TODO
  - Redirect IDrive logs to Docker logs. 
  - Persist cron and dashboard IDrive daemon. I tried with expect commando but no luck. 
+```
