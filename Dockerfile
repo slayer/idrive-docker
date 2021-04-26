@@ -20,11 +20,12 @@ RUN echo "Europe/Madrid" > /etc/timezone
 RUN rm -f /etc/localtime
 RUN dpkg-reconfigure -f noninteractive tzdata
 
-# Install Idrive
+# Install IDrive
 RUN curl -O https://www.idrivedownloads.com/downloads/linux/download-for-linux/IDriveForLinux.zip && \
     unzip IDriveForLinux.zip
 
 RUN rm IDriveForLinux.zip
+
 WORKDIR /work/IDriveForLinux/scripts
 
 # Give execution rights
