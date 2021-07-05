@@ -5,7 +5,8 @@ echo "init.."
 # Reinstall IDrive (force last version)
 echo "Reinstall IDrive.."
 cd /work
-curl -O https://www.idrivedownloads.com/downloads/linux/download-for-linux/IDriveForLinux.zip
+curl -O https://www.idrivedownloads.com/downloads/linux/download-for-linux/LinuxScripts/IDriveForLinux.zip
+
 unzip -o IDriveForLinux.zip
 rm IDriveForLinux.zip
 cd /work/IDriveForLinux/scripts

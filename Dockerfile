@@ -21,7 +21,7 @@ RUN rm -f /etc/localtime
 RUN dpkg-reconfigure -f noninteractive tzdata
 
 # Install IDrive
-RUN curl -O https://www.idrivedownloads.com/downloads/linux/download-for-linux/IDriveForLinux.zip && \
+RUN curl -O https://www.idrivedownloads.com/downloads/linux/download-for-linux/LinuxScripts/IDriveForLinux.zip && \
     unzip IDriveForLinux.zip
 
 RUN rm IDriveForLinux.zip
