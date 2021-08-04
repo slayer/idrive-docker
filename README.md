@@ -36,11 +36,6 @@ BACKUP
  - Execute ./Backup_Script.pl
  - For more commands and help open readme.txt file into container
 
-SECOND RUN AND SUCCESSIVES
- - IDrive CRON and dashboard daemon don't persist when you stop and run again the container. 
-   It's necessary to execute again ./account_setting.pl (no need to reconfigure, only restart services). 
-
 TODO
  - Redirect IDrive logs to Docker logs. 
- - Persist cron and dashboard IDrive daemon. I tried with expect commando but no luck. 
 ```
