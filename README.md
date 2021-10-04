@@ -26,7 +26,7 @@ INSTALLATION
  - $BACKUPDIR points to the local path you need to backup. 
 
 FIRST RUN -> CONFIGURATION
- - Open a bash console into the container. 
+ - Open a bash console into the container (or docker exec -it "container" "command"). 
  - Execute ./account_setting.pl
    Enter user and password and other stuff. 
  - Execute ./edit_supported_files.pl
