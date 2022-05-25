@@ -1,16 +1,6 @@
 #!/bin/sh
 # Entrypoint for idrive
-echo "init.."
-
-# Reinstall IDrive (force last version)
-echo "Force last IDrive version.."
-cd /work
-curl -O https://www.idrivedownloads.com/downloads/linux/download-for-linux/LinuxScripts/IDriveForLinux.zip
-
-unzip -o IDriveForLinux.zip
-rm IDriveForLinux.zip
-cd /work/IDriveForLinux/scripts
-chmod a+x *.pl
+echo "iDrive start.."
 
 # docker logs
 tail -f /var/log/idrive.log
