@@ -38,6 +38,5 @@ BACKUP
 
 SECOND RUN AND SUCCESSIVES
  - IDrive CRON and dashboard daemon don't persist when you stop and run again the container. 
-   It's necessary to execute again ./account_setting.pl (no need to reconfigure, only restart services). 
-   Update: this workaround isn't necessary now. 
+   It's necessary to execute again ./account_setting.pl (no need to reconfigure, only restart services).  
 ```
