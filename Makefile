@@ -42,6 +42,9 @@ down:
 logs:
 	docker-compose logs -f
 
+commit:
+	docker commit idrive $(DOCKER_IMAGE_LATEST)
+
 # run:
 # 	docker run --rm \
 # 			-it \

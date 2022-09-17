@@ -4,10 +4,6 @@ idrive:
   restart: unless-stopped
   volumes:
     - ./config:/work/IDriveForLinux/idriveIt
-    - ./backup:/home/backup:ro
-    - /mnt/wd0/backups:/home/backup/wd0-backups:ro
-  #environment:
-    #- TZ=$TZ
-    #- PGID=$PGID
-    #- PUID=$PUID
+    - ./backup:/backup:ro
+    # - /mnt/wd0/backups:/backup/wd0-backups:ro
 
